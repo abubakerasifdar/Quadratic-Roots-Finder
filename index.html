@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" media="screen and (min-width: 1028px)" href="style/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1028px)" href="style/desktopstyle.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="style/tabletstyle.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="style/mobilestyle.css">
+    <style>
+   
+    </style>
+</head>
+
+<body>
+    <div id="root">
+        <h1>Quadratic Roots Finder</h1>
+        <p>Write a program that will take three values a, b and c and print the roots, if real of quadratic equation
+            ax^2 + bx + c = 0. Sample input 1: (a=1, b=1, c=-6 the output should be “Roots of the equation are 2 and
+            -3”). Sample input 2 (if, the input a=1, b=0, c=9, the output should be “Sorryu the roots are not real”).
+        </p>
+      
+        <label for="">Please Enter Your Expected Value of A, B, C</label>
+        <br>
+        <br>
+        <div id="inputdiv"><input type="number" id="input1" placeholder="Please Entered a Value"> <span>x^2</span>
+        <input type="number" id="input2" placeholder="Please Entered b Value"> <span>x</span>
+        <input type="number" id="input3" placeholder="Please Entered c Value"> <span> = 0</span></div>
+        <br>
+        <br>
+        <label for="">Please Enter Your Expected Roots</label>
+        <br>
+        <input type="number" id="input4" placeholder="Please Entered e Value">
+        <input type="number" id="input5" placeholder="Please Entered d Value">
+        <button onclick="myFunction()">Calculate</button>
+        <p id="output"></p>
+    </div>
+   
+   
+<script src="javascript.js"></script>
+</body>
+
+</html>
